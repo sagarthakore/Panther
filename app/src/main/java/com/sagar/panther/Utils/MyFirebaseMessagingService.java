@@ -15,7 +15,7 @@ import com.sagar.panther.MainActivity;
 import com.sagar.panther.R;
 
 /**
- * Created by sagar on 10/13/16.
+ * Created by Sagar on 10/13/16.
  */
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
