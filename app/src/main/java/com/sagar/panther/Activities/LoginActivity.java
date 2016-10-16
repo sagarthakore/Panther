@@ -18,6 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.sagar.panther.Activities.SignupActivity;
 import com.sagar.panther.MainActivity;
+import com.sagar.panther.R;
 
 public class LoginActivity extends AppCompatActivity {
 
