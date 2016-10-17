@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/backapp"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.sagar.panther.Activities.SignupActivity">
@@ -10,7 +11,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/colorBack"
+
         android:gravity="center"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin">
@@ -27,7 +28,7 @@
 
             <EditText
                 android:id="@+id/email"
-                android:background="@drawable/etblue"
+                android:background="@color/edit_back"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:padding="10dp"
@@ -50,7 +51,7 @@
                 android:hint="@string/hint_password"
                 android:padding="10dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/etblue"
+                android:background="@color/edit_back"
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
@@ -80,7 +81,7 @@
             android:background="@null"
             android:text="@string/btn_forgot_password"
             android:textAllCaps="false"
-            android:textColor="@color/colorAccent" />
+            android:textColor="@color/white" />
 
         <!-- Link to Login Screen -->
 
@@ -92,7 +93,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/white"
             android:textSize="15dp" />
     </LinearLayout>
 

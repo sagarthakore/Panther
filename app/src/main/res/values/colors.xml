@@ -58,7 +58,7 @@
 
     <color name="mYellowStart">#ffa726</color>
     <color name="mYellowEnd">#ffa726</color>
-    <color name="edit_back">#85dcdcdc</color>
+    <color name="edit_back">#51dcdcdc</color>
 
     <color name="spots_dialog_color">@color/colorPrimary</color>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backapp"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
@@ -31,8 +32,11 @@
 
     <EditText
         android:id="@+id/old_email"
+        android:padding="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/edit_back"
+
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
         android:maxLines="1"
@@ -41,8 +45,11 @@
     <EditText
         android:id="@+id/new_email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="@string/hint_new_email"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/edit_back"
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:singleLine="true" />
@@ -50,9 +57,12 @@
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:focusableInTouchMode="true"
         android:hint="@string/prompt_password"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/edit_back"
         android:imeActionId="@+id/login"
         android:imeOptions="actionUnspecified"
         android:inputType="textPassword"
@@ -62,9 +72,12 @@
     <EditText
         android:id="@+id/newPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
         android:focusableInTouchMode="true"
         android:hint="@string/new_pass"
+        android:background="@color/edit_back"
         android:imeActionId="@+id/login"
         android:imeOptions="actionUnspecified"
         android:inputType="textPassword"
