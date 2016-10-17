@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-
+    <color name="colorPrimary">#3d4f6b</color>
+    <color name="colorPrimaryDark">#303d53</color>
+    <color name="colorPrimaryLight">#50678b</color>
+    <color name="colorAccent">#ff3d4f6b</color>
     <color name="bg_login">#26ae90</color>
     <color name="bg_register">#2e3237</color>
     <color name="bg_main">#428bca</color>
-    <color name="white">#ffffff</color>
     <color name="input_login">#222222</color>
     <color name="input_login_hint">#999999</color>
     <color name="input_register">#888888</color>
@@ -17,4 +16,49 @@
     <color name="btn_login_bg">#eceef1</color>
     <color name="lbl_name">#333333</color>
     <color name="btn_logut_bg">#ff6861</color>
+    <color name="alphazero">#004fa1d9</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#BDBDBF</color>
+    <color name="white">#ffffff</color>
+    <color name="pressed">#3c87ba</color>
+    <color name="appbackground">#eef1f2</color>
+    <color name="recievebubble">#e8e8e8</color>
+    <color name="buttonpressedcolor">#dcdcdc</color>
+    <color name="darkgrey">#dcdcdc</color>
+    <color name="darkblue">#3d92ca</color>
+    <color name="bg">#fffbe3</color>
+    <color name="lightblue">#4FA1D9</color>
+
+    <color name="diary_title">#505050</color>
+    <color name="diary_description">#969696</color>
+
+    <color name="red">#d50000</color>
+    <color name="orange">#ffa726</color>
+    <color name="green">#2e7d32</color>
+
+    <color name="colorBack">#dcdcdc</color>
+    <color name="colorBackDark">#dcdcdc</color>
+
+    <color name="shadowStart">#92000000</color>
+    <color name="shadowEnd">#00dcdcdc</color>
+
+    <color name="nav_selected">#53abdf</color>
+
+    <color name="whitealpha">#7dffffff</color>
+    <color name="blackalpha">#7d000000</color>
+
+    <color name="appointmentcolor">#5778A4</color>
+    <color name="doctor_detail_back">#DEE2E5</color>
+
+    <color name="mGreenStart">#2e7d32</color>
+    <color name="mGreenEnd">#2e7d32</color>
+
+    <color name="mRedStart">#d50000</color>
+    <color name="mRedEnd">#d50000</color>
+
+    <color name="mYellowStart">#ffa726</color>
+    <color name="mYellowEnd">#ffa726</color>
+    <color name="edit_back">#85dcdcdc</color>
+
+    <color name="spots_dialog_color">@color/colorPrimary</color>
 </resources>

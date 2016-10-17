@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorBack"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin">
@@ -27,13 +27,16 @@
 
             <EditText
                 android:id="@+id/email"
+                android:background="@drawable/etblue"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
                 android:hint="@string/email"
+                android:textColorHint="@color/colorPrimary"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@android:color/white" />
+                android:textColor="@color/colorPrimary" />
 
 
 
@@ -42,15 +45,19 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:focusableInTouchMode="true"
                 android:hint="@string/hint_password"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/etblue"
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@android:color/white" />
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary" />
 
 
 
@@ -85,7 +92,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/colorPrimary"
             android:textSize="15dp" />
     </LinearLayout>
 
